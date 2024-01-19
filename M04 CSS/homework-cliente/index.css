@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    width: 1920px;
+    height: 1150px;
+
+    border: 2px solid white;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+main{
+    border: 2px solid white;
+}
+#Caja-Rosa {
+    width: 781px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FD1EBD;
+    margin-top: 71px;
+    margin-bottom: 48px;
+
+}
+#Caja-Amarilla {
+    width: 643px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FFFD38;
+    
+}
+
+#contenedor-primero {
+    width: 725px;
+    height: 1150px;
+    flex-shrink: 0;
+    margin-left: 61px;
+    border-left: 2px solid white;
+    padding-left: 71px;
+}
+#contenedor-primero h1 {
+    color: rgba(255, 255, 255, 0.30);
+    font-family: Inter;
+    font-size: 50.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+#contenedor-primero span {
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 289.846px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#ui{
+    position: relative;
+    bottom: 54px;
+}
+#practice{
+    color: #FFF;
+    font-family: "inter";
+    position: relative;
+    bottom: 120px;
+
+}
+#contenedor-primero h2{
+color: #FFF;
+font-family: Space Grotesk;
+font-size: 163.445px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#Diseño {
+    
+}
+
+#circulo-rosa {
+    position: relative;
+    bottom: 110px;
+    
+}
+
+#circulo-rosa {
+    display: flex;
+}
