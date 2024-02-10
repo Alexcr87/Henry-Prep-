@@ -7,7 +7,7 @@ function esNumeroPrimo(numero) {
   // solo es divisible por sí mismo y por 1.
   // Tu código:
   if(numero%1 ===0 && numero%numero ===0 ){ return true
-  } else return true
+  } else return false
 }
 
 module.exports = esNumeroPrimo;

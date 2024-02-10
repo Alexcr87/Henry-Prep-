@@ -1,0 +1,13 @@
+var arreglo = [1,2,3,4,5,6,7]
+
+function sumar (a,b){
+    return a + b
+}
+
+function operaciones (funcion){
+    var resultado = funcion (5,1)
+    return resultado
+}
+
+var resultado = operaciones (sumar)
+console.log(resultado)

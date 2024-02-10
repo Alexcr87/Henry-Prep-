@@ -6,4 +6,5 @@ function esImpar(num) {
   } else return true
 }
 
+
 module.exports = esImpar;
