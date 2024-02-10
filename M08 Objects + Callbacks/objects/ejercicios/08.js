@@ -5,6 +5,15 @@ function crearGato(nombre, edad) {
   // La propiedad "meow" será una función que retorne el string: "Meow!".
   // Retornar el objeto.
   // Tu código:
+
+  var crearGato = {
+    nombre: " ",
+    edad: 12,
+    meow: function (str){
+      return "Meow!"
+    }
+  }
+  
 }
 
 module.exports = crearGato;
